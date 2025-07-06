@@ -41,4 +41,6 @@ Deploy frontend on Amplify
 
 Setup backend Lambda + API Gateway
 
-Connect DynamoDB for saving bookmarks
+Connect DynamoDB for saving bookmarks 
+
+git commits 
