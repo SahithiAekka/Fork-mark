@@ -1,0 +1,44 @@
+I built a cloud-native food bookmarking app using AWS Amplify, Lambda, DynamoDB, and Cognito. 
+I integrated third-party APIs (Google Places/Yelp), designed a responsive React frontend, and used serverless backend APIs with CI/CD via Amplify. 
+The app is live and demonstrates end-to-end architecture from UX to observability."
+
+----------------------------------------------------
+
+foodie-bookmark-app/
+├── frontend/               # React App (Vite + Tailwind)
+│   └── hosted on Amplify
+├── backend/
+│   ├── getPlaceInfo.js     # Lambda functions (Google/Yelp)
+│   ├── saveBookmark.js     # Save to DynamoDB
+│   └── ...
+├── amplify/                # Amplify config
+├── infra/                  # IaC (optional, CDK or SAM)
+└── README.md               # Clear doc to impress recruiters
+
+-------------------------------------------------------
+
+Features of the app:
+✅ Save a new restaurant with name, tags, notes, Instagram link
+
+✅ Auto-fetch details via Google Places/Yelp (timings, price, etc.)
+
+✅ Filter saved places by type (brunch, dessert, date night)
+
+✅ Map view or grid layout of your saved spots
+
+✅ Deployed on yourdomain.com (use Route53 or Amplify's subdomain)
+
+✅ Well-written README + architecture diagram
+
+----------------------------------------------------------
+
+Phase 1: Setup
+Create an Amplify project (with GitHub integration)
+
+Scaffold React (Vite) + Tailwind frontend
+
+Deploy frontend on Amplify
+
+Setup backend Lambda + API Gateway
+
+Connect DynamoDB for saving bookmarks
